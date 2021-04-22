@@ -46,7 +46,8 @@ GQ
 K
 
 Your problem is to start with such a sequence of lines of leaves from a binary search tree of letters and output the **preorder** traversal of the tree.
-输入
+
+Input
 ---
 The input will contain one or more data sets. Each data set is a sequence of one or more lines of capital letters.
 
@@ -54,11 +55,11 @@ The lines contain the leaves removed from a binary search tree in the stages des
 
 The last data set is followed by a line containing only a dollar sign ('$'). There are no blanks or empty lines in the input.
 
-输出
+Output
 ---
 For each input data set, there is a unique binary search tree that would produce the sequence of leaves. The output is a line containing only the preorder traversal of that tree, with no blanks.
 
-样例输入
+Example of input
 ---
 ```
 BDHPY
@@ -70,7 +71,7 @@ AC
 B
 $
 ```
-样例输出
+Example of output
 ---
 ```
 KGCBDHQMPY
